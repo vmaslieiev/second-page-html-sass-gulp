@@ -1,0 +1,31 @@
+@media screen and (max-width: 1200px) {
+ 	header{
+	width: 100%;
+	.top-box {
+		width: 90%;
+	}
+	   }
+}
+@media screen and (max-width: 1000px) {
+	
+}
+@media screen and (max-width: 768px) {
+	.top-left-box p {
+		font-size: 25px;
+	}
+	.head-title {
+		font-size: 30px;
+		text-align: center;
+	}
+	.header-form-button-box {
+		display: block;
+		text-align: center;
+	}
+	.start-form {
+		width: 250px;
+	}
+	.go-button {
+		margin-top: 10px;
+		padding: 5px 35px;
+	}
+}

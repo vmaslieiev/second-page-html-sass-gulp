@@ -1,0 +1,20 @@
+footer {
+    display: flex;
+    background-color: $color-primary;
+    justify-content: space-around;
+    padding: 25px 0;
+    box-sizing: content-box;
+
+    .footer-menu {
+        display: flex;
+    }
+    p           {
+    color: #9f9f9f;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        margin-right: 15px;
+    }
+}

@@ -1,0 +1,73 @@
+header {
+    height: 600px;
+    background: url('../img/header_bg.png') center top no-repeat;
+    background-size: cover;
+    .head-title {
+        color: white;
+    }
+}
+.top-box {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 25px;
+
+    img {
+        margin-top: 5px;
+    }
+    .top-left-box {
+        display: flex;
+        width: 600px;
+    }
+    p {
+    font-size: 32px;
+    margin-left: 12px;
+    color: white;
+    letter-spacing: 1px;
+    }
+    .top-right-box {
+        width: 600px;
+        float: right;
+    }
+}
+
+.nav-cursor-pointer {
+    float: right;
+    width: 25px;
+    height: 24px;
+    cursor: pointer;
+}
+.top-line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+.head-title-box {
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+.header-form-button-box {
+    display: flex;
+    justify-content: center;
+}
+.start-form {
+    border: 0;
+    padding: 10px;
+    width: 325px;
+}
+.go-button {
+    padding: 0 50px;
+    color: white;
+    border: 0;
+    background-color: $button-color;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+button:focus {
+    outline: none;
+}

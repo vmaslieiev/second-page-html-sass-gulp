@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+    font-family: $font-primary;
+}
+h1 {
+    font-size: 53px;
+}
+h2 {
+    font-family: $font-secondary;
+    padding-bottom: 20px;
+    font-weight: 600;
+    text-decoration: uppercase;
+}
+h3 {
+    font-family: $font-secondary;
+    font-size: 13px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-decoration: uppercase;
+}
+.traveling-cost {
+    font-family: $font-secondary;
+    font-size: 13px;
+}
+.about-destination {
+    color: $color-text-secondary;
+    line-height: 19px;
+    font-size: 12px;
+}
+.top-dest-text {
+    color: #8b8b8b;
+    font-size: 14px;
+}
+.info-text {
+    line-height: 20px;
+    color: $color-text-secondary;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.footer-menu a {
+    font-family: $font-secondary;
+}
